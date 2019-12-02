@@ -41,7 +41,6 @@ public class HtmlCreator implements IOutputManager {
 			outputStream.println(header);
 			
 			outputStream.println("<h1>Software Development Assignment</h1>");
-			outputStream.println("<img src=\"C:\\test\\rai.jpg\" alt=\"Fucked2\">");
 			outputStream.println("<h2>The result is</h2>");
 			String newOut = out.replace("\n","<br>");
 			outputStream.println(newOut);
